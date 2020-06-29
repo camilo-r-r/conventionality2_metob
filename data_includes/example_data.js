@@ -1,5 +1,5 @@
 PennController.ResetPrefix(null);
-PennController.DebugOff()
+
 PennController.Sequence( "instructions1", "info1", "practice", "instructions_3", randomize("items"),"send", "end" );
 
 PennController( "instructions1" ,
@@ -37,16 +37,9 @@ PennController( "info1" ,
 
 );
 PennController("practice",
-        newText("context_p","Paula arbeitet als Verk&auml;uferin in einem Einkaufszentrum. Seit Anfang Dezember muss sie wegen der Weihnachtszeit viele &Uuml;berstunden machen. Sie hat das Gef&uuml;hl, nur noch f&uuml;r ihren Job zu leben und wird langsam frustriert. Sie vermisst ihren fr&uuml;heren Alltag.")
-            .settings.css("font-size", "30px")
-            .settings.center()
-            .print()
 
-   ,
-        newKey(" ")
-           .wait()
-    ,
-        newText("sentence_p","Paula verbringt ihre Tage in einem Gef&auml;ngnis und f&uuml;rchtet, dass ihr Job sie in den Wahnsinn treibt.")
+    
+        newText("sentence_p","Eint&ouml;nige Situation, die scheinbar ausweglos ist.")
             .settings.css("font-size", "30px")
             .settings.css("padding-top", "30px")
             .settings.center()
@@ -56,7 +49,7 @@ PennController("practice",
            .wait()
       ,
 
-               newText("scale_title_p", "Was bedeutet das Wort")
+               newText("scale_title_p", "Wie oft hast du das Wort")
                .settings.css("font-size", "25px")
                .settings.css("padding-top", "50px")
                //.settings.bold()
@@ -72,33 +65,35 @@ PennController("practice",
               //.settings.css("padding-left", "100pt")
                .print()
             ,
-               newText("scale_title2_p", "in diesem Kontext?")
+               newText("scale_title2_p", "in dieser bestimmten metaphorischen Bedeutung schon mal geh&ouml;rt oder gelesen?")
                .settings.css("font-size", "25px")
                .settings.css("padding-top", "10px")
                //.settings.bold()
                .settings.center()
               //.settings.css("padding-left", "100pt")
                .print()
-         ,
-                   newTextInput("answer_p")
-                  .settings.center()
-                  .print()
-                  .settings.log()
-
-        ,
+           ,
+       newScale("rating_p", 100)
+      .settings.slider()
+      .settings.center()
+      .settings.css("padding-top", "30px")
+      .settings.before( newText("left", "noch nie") )
+      .settings.after( newText("right", " sehr oft") )
+      .print()
+      .wait()
+   ,
         newButton("finish_p", "senden")
             .settings.center()
             .print()
-        .wait(getTextInput("answer_p").testNot.text(" ") )
+           .wait()
 
        ,
         getButton("finish_p")
            .remove()
-           ,
-                 getTextInput("answer_p")
-                    .remove()
-           ,
-
+       ,
+        getScale("rating_p")
+           .remove()
+    ,
         getText("scale_title_p")
            .remove()
       ,
@@ -127,15 +122,16 @@ PennController("practice",
            .remove()
  ,
 
+        getScale("rating_p").settings.log("last"),
 )
                                           .log( "item" , "practice" )
 
 PennController("instructions_3",
-    newText("<p>Das war die &Uuml;bung! Hier w&auml;re die richtige Antwort in etwa 'Ort, der die Freiheit einschr&auml;nkt' gewesen (oder &Auml;hnliches). Jetzt geht es los mit dem Experiment. </p>")
+    newText("<p>Das war die &Uuml;bung! Jetzt geht es los mit dem Experiment. </p>")
                 .settings.css("font-size", "25px")
         .print()
     ,
-    newText("<p>als Erinnerung: deine Aufgabe ist es anzugeben, in so wenigen W&ouml;rtern wie m&ouml;glich, was das fettgedruckte Wort in dem jeweiligen Kontext bedeutet.</p>")
+    newText("<p>als Erinnerung: deine Aufgabe ist es zu einzusch&auml;tzen, wie oft du das fettgedruckte metaphorische Wort in der angegebenen Interpretation schon mal geh&ouml;rt oder gelesen hast.</p>")
                 .settings.css("font-size", "25px")
         .print()
     ,
@@ -149,7 +145,7 @@ PennController("instructions_3",
 )
 
 
-PennController.Template( PennController.GetTable("items_metob_conven.csv"),
+PennController.Template( PennController.GetTable("conventionality2_metob.csv"),
                  variable => PennController("items",
         newText("context",variable.context)
             .settings.css("font-size", "30px")
@@ -160,7 +156,7 @@ PennController.Template( PennController.GetTable("items_metob_conven.csv"),
         newKey(" ")
            .wait()
     ,
-        newText("sentence",variable.sentence)
+        newText("sentence",variable.meaning)
             .settings.css("font-size", "30px")
             .settings.css("padding-top", "30px")
             .settings.center()
@@ -169,7 +165,7 @@ PennController.Template( PennController.GetTable("items_metob_conven.csv"),
         newKey(" ")
            .wait()
       ,
-               newText("scale_title", "Was bedeutet das Wort")
+               newText("scale_title", "Wie oft hast du das Wort")
                .settings.css("font-size", "25px")
                .settings.css("padding-top", "50px")
                //.settings.bold()
@@ -185,33 +181,35 @@ PennController.Template( PennController.GetTable("items_metob_conven.csv"),
               //.settings.css("padding-left", "100pt")
                .print()
             ,
-               newText("scale_title2", "in diesem Kontext?")
+               newText("scale_title2", "in einem ähnlichen Kontext schon mal geh&ouml;rt oder gelesen?")
                .settings.css("font-size", "25px")
                .settings.css("padding-top", "10px")
                //.settings.bold()
                .settings.center()
               //.settings.css("padding-left", "100pt")
                .print()
-       ,
-           newTextInput("answer")
-          .settings.center()
-          .print()
-          .settings.log()
-
-
-      ,
+           ,
+       newScale("rating", 100)
+      .settings.slider()
+      .settings.center()
+      .settings.css("padding-top", "30px")
+      .settings.before( newText("left", "noch nie") )
+      .settings.after( newText("right", " sehr oft") )
+      .print()
+      .wait()
+   ,
         newButton("finish", "senden")
             .settings.center()
             .print()
-        .wait(getTextInput("answer").testNot.text(" ") )
+           .wait()
 
        ,
         getButton("finish")
            .remove()
        ,
-             getTextInput("answer")
-                .remove()
-       ,
+        getScale("rating")
+           .remove()
+    ,
         getText("scale_title")
            .remove()
       ,
@@ -239,6 +237,7 @@ PennController.Template( PennController.GetTable("items_metob_conven.csv"),
            .remove()
  ,
 
+        getScale("rating").settings.log("last"),
 )
                                           .log( "item" , variable.item )
 
