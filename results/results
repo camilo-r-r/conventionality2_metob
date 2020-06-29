@@ -1,0 +1,117 @@
+#
+# Results on Monday March 23 2020 17:12:44 UTC.
+# USER AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:74.0) Gecko/20100101 Firefox/74.0
+# Design number was non-random = 0
+#
+# Columns below this comment are as follows:
+# 1. Time results were received.
+# 2. MD5 hash of participant's IP address.
+# 3. Controller name.
+# 4. Item number.
+# 5. Element number.
+# 6. Type.
+# 7. Group.
+# 8. PennElementType.
+# 9. PennElementName.
+# 10. Parameter.
+# 11. Value.
+# 12. EventTime.
+# 13. Comments.
+1584983565,d47c42e23305021be8d45500e125001d,PennController,0,0,instructions1,NULL,PennController,0,_Trial_,Start,1584982507525,NULL
+1584983565,d47c42e23305021be8d45500e125001d,PennController,0,0,instructions1,NULL,PennController,0,_Trial_,End,1584982555863,NULL
+1584983565,d47c42e23305021be8d45500e125001d,PennController,1,0,instructions2,NULL,PennController,1,_Trial_,Start,1584982555890,NULL
+1584983565,d47c42e23305021be8d45500e125001d,PennController,1,0,instructions2,NULL,PennController,1,_Trial_,End,1584982570706,NULL
+1584983565,d47c42e23305021be8d45500e125001d,PennController,2,0,info1,NULL,PennController,2,_Trial_,Start,1584982570720,NULL
+1584983565,d47c42e23305021be8d45500e125001d,PennController,2,0,info1,NULL,Html,info,name,deutsch,1584982591649,text input
+1584983565,d47c42e23305021be8d45500e125001d,PennController,2,0,info1,NULL,Html,info,alter,27,1584982591649,text input
+1584983565,d47c42e23305021be8d45500e125001d,PennController,2,0,info1,NULL,Html,info,sex,female,1584982591650,radio button
+1584983565,d47c42e23305021be8d45500e125001d,PennController,2,0,info1,NULL,Html,info,hand,right,1584982591650,radio button
+1584983565,d47c42e23305021be8d45500e125001d,PennController,2,0,info1,NULL,PennController,2,_Trial_,End,1584982591650,NULL
+# Columns below this comment are as follows:
+# 1. Time results were received.
+# 2. MD5 hash of participant's IP address.
+# 3. Controller name.
+# 4. Item number.
+# 5. Element number.
+# 6. Type.
+# 7. Group.
+# 8. PennElementType.
+# 9. PennElementName.
+# 10. Parameter.
+# 11. Value.
+# 12. EventTime.
+# 13. item.
+# 14. answer.
+# 15. Comments.
+1584983565,d47c42e23305021be8d45500e125001d,PennController,8,0,items,NULL,PennController,9,_Trial_,Start,1584982591667,6, hinterlistig,NULL
+1584983565,d47c42e23305021be8d45500e125001d,PennController,8,0,items,NULL,PennController,9,_Trial_,End,1584982640598,6, hinterlistig,NULL
+1584983565,d47c42e23305021be8d45500e125001d,PennController,12,0,items,NULL,PennController,13,_Trial_,Start,1584982640612,10, gemein,NULL
+1584983565,d47c42e23305021be8d45500e125001d,PennController,12,0,items,NULL,PennController,13,_Trial_,End,1584982679679,10, gemein,NULL
+1584983565,d47c42e23305021be8d45500e125001d,PennController,34,0,items,NULL,PennController,35,_Trial_,Start,1584982679686,32, verwöhnt,NULL
+1584983565,d47c42e23305021be8d45500e125001d,PennController,34,0,items,NULL,PennController,35,_Trial_,End,1584982701045,32, verwöhnt,NULL
+1584983565,d47c42e23305021be8d45500e125001d,PennController,37,0,items,NULL,PennController,38,_Trial_,Start,1584982701053,35, will alles,NULL
+1584983565,d47c42e23305021be8d45500e125001d,PennController,37,0,items,NULL,PennController,38,_Trial_,End,1584982788045,35, will alles,NULL
+1584983565,d47c42e23305021be8d45500e125001d,PennController,26,0,items,NULL,PennController,27,_Trial_,Start,1584982788053,24, kräftig,NULL
+1584983565,d47c42e23305021be8d45500e125001d,PennController,26,0,items,NULL,PennController,27,_Trial_,End,1584982807176,24, kräftig,NULL
+1584983565,d47c42e23305021be8d45500e125001d,PennController,14,0,items,NULL,PennController,15,_Trial_,Start,1584982807179,12, aggressiv,NULL
+1584983565,d47c42e23305021be8d45500e125001d,PennController,14,0,items,NULL,PennController,15,_Trial_,End,1584982828212,12, aggressiv,NULL
+1584983565,d47c42e23305021be8d45500e125001d,PennController,33,0,items,NULL,PennController,34,_Trial_,Start,1584982828218,31,hart,NULL
+1584983565,d47c42e23305021be8d45500e125001d,PennController,33,0,items,NULL,PennController,34,_Trial_,End,1584982870646,31,hart,NULL
+1584983565,d47c42e23305021be8d45500e125001d,PennController,28,0,items,NULL,PennController,29,_Trial_,Start,1584982870659,26,gefühlskalt,NULL
+1584983565,d47c42e23305021be8d45500e125001d,PennController,28,0,items,NULL,PennController,29,_Trial_,End,1584982924730,26,gefühlskalt,NULL
+1584983565,d47c42e23305021be8d45500e125001d,PennController,36,0,items,NULL,PennController,37,_Trial_,Start,1584982924738,34, wütend,NULL
+1584983565,d47c42e23305021be8d45500e125001d,PennController,36,0,items,NULL,PennController,37,_Trial_,End,1584982943514,34, wütend,NULL
+1584983565,d47c42e23305021be8d45500e125001d,PennController,10,0,items,NULL,PennController,11,_Trial_,Start,1584982943522,8, Beziehung angeknackst,NULL
+1584983565,d47c42e23305021be8d45500e125001d,PennController,10,0,items,NULL,PennController,11,_Trial_,End,1584982999395,8, Beziehung angeknackst,NULL
+1584983565,d47c42e23305021be8d45500e125001d,PennController,18,0,items,NULL,PennController,19,_Trial_,Start,1584982999404,16, nicht zu sehen,NULL
+1584983565,d47c42e23305021be8d45500e125001d,PennController,18,0,items,NULL,PennController,19,_Trial_,End,1584983018012,16, nicht zu sehen,NULL
+1584983565,d47c42e23305021be8d45500e125001d,PennController,19,0,items,NULL,PennController,20,_Trial_,Start,1584983018019,17, ungenießbar,NULL
+1584983565,d47c42e23305021be8d45500e125001d,PennController,19,0,items,NULL,PennController,20,_Trial_,End,1584983030529,17, ungenießbar,NULL
+1584983565,d47c42e23305021be8d45500e125001d,PennController,31,0,items,NULL,PennController,32,_Trial_,Start,1584983030534,29, schnell,NULL
+1584983565,d47c42e23305021be8d45500e125001d,PennController,31,0,items,NULL,PennController,32,_Trial_,End,1584983038545,29, schnell,NULL
+1584983565,d47c42e23305021be8d45500e125001d,PennController,30,0,items,NULL,PennController,31,_Trial_,Start,1584983038550,28,Hilfe,NULL
+1584983565,d47c42e23305021be8d45500e125001d,PennController,30,0,items,NULL,PennController,31,_Trial_,End,1584983072896,28,Hilfe,NULL
+1584983565,d47c42e23305021be8d45500e125001d,PennController,9,0,items,NULL,PennController,10,_Trial_,Start,1584983072904,7, alt,NULL
+1584983565,d47c42e23305021be8d45500e125001d,PennController,9,0,items,NULL,PennController,10,_Trial_,End,1584983084595,7, alt,NULL
+1584983565,d47c42e23305021be8d45500e125001d,PennController,20,0,items,NULL,PennController,21,_Trial_,Start,1584983084600,18, leicht,NULL
+1584983565,d47c42e23305021be8d45500e125001d,PennController,20,0,items,NULL,PennController,21,_Trial_,End,1584983192861,18, leicht,NULL
+1584983565,d47c42e23305021be8d45500e125001d,PennController,27,0,items,NULL,PennController,28,_Trial_,Start,1584983192863,25, alt eingesessen,NULL
+1584983565,d47c42e23305021be8d45500e125001d,PennController,27,0,items,NULL,PennController,28,_Trial_,End,1584983204811,25, alt eingesessen,NULL
+1584983565,d47c42e23305021be8d45500e125001d,PennController,23,0,items,NULL,PennController,24,_Trial_,Start,1584983204813,21, zerbrechlich,NULL
+1584983565,d47c42e23305021be8d45500e125001d,PennController,23,0,items,NULL,PennController,24,_Trial_,End,1584983214563,21, zerbrechlich,NULL
+1584983565,d47c42e23305021be8d45500e125001d,PennController,7,0,items,NULL,PennController,8,_Trial_,Start,1584983214568,5, heilig,NULL
+1584983565,d47c42e23305021be8d45500e125001d,PennController,7,0,items,NULL,PennController,8,_Trial_,End,1584983221112,5, heilig,NULL
+1584983565,d47c42e23305021be8d45500e125001d,PennController,22,0,items,NULL,PennController,23,_Trial_,Start,1584983221115,20, dick,NULL
+1584983565,d47c42e23305021be8d45500e125001d,PennController,22,0,items,NULL,PennController,23,_Trial_,End,1584983227762,20, dick,NULL
+1584983565,d47c42e23305021be8d45500e125001d,PennController,5,0,items,NULL,PennController,6,_Trial_,Start,1584983227767,3, gefühlstot,NULL
+1584983565,d47c42e23305021be8d45500e125001d,PennController,5,0,items,NULL,PennController,6,_Trial_,End,1584983238813,3, gefühlstot,NULL
+1584983565,d47c42e23305021be8d45500e125001d,PennController,38,0,items,NULL,PennController,39,_Trial_,Start,1584983238818,36, unerreichbarer Schatz,NULL
+1584983565,d47c42e23305021be8d45500e125001d,PennController,38,0,items,NULL,PennController,39,_Trial_,End,1584983271562,36, unerreichbarer Schatz,NULL
+1584983565,d47c42e23305021be8d45500e125001d,PennController,15,0,items,NULL,PennController,16,_Trial_,Start,1584983271564,13, nicht gleich,NULL
+1584983565,d47c42e23305021be8d45500e125001d,PennController,15,0,items,NULL,PennController,16,_Trial_,End,1584983303379,13, nicht gleich,NULL
+1584983565,d47c42e23305021be8d45500e125001d,PennController,17,0,items,NULL,PennController,18,_Trial_,Start,1584983303384,15, Durcheinander,NULL
+1584983565,d47c42e23305021be8d45500e125001d,PennController,17,0,items,NULL,PennController,18,_Trial_,End,1584983318379,15, Durcheinander,NULL
+1584983565,d47c42e23305021be8d45500e125001d,PennController,4,0,items,NULL,PennController,5,_Trial_,Start,1584983318384,2, gefährlich,NULL
+1584983565,d47c42e23305021be8d45500e125001d,PennController,4,0,items,NULL,PennController,5,_Trial_,End,1584983337979,2, gefährlich,NULL
+1584983565,d47c42e23305021be8d45500e125001d,PennController,3,0,items,NULL,PennController,4,_Trial_,Start,1584983337984,1, wütend,NULL
+1584983565,d47c42e23305021be8d45500e125001d,PennController,3,0,items,NULL,PennController,4,_Trial_,End,1584983351663,1, wütend,NULL
+1584983565,d47c42e23305021be8d45500e125001d,PennController,25,0,items,NULL,PennController,26,_Trial_,Start,1584983351668,23, keine Ahnung,NULL
+1584983565,d47c42e23305021be8d45500e125001d,PennController,25,0,items,NULL,PennController,26,_Trial_,End,1584983407397,23, keine Ahnung,NULL
+1584983565,d47c42e23305021be8d45500e125001d,PennController,29,0,items,NULL,PennController,30,_Trial_,Start,1584983407401,27, chaotisch,NULL
+1584983565,d47c42e23305021be8d45500e125001d,PennController,29,0,items,NULL,PennController,30,_Trial_,End,1584983428797,27, chaotisch,NULL
+1584983565,d47c42e23305021be8d45500e125001d,PennController,35,0,items,NULL,PennController,36,_Trial_,Start,1584983428801,33, Nachplapperer,NULL
+1584983565,d47c42e23305021be8d45500e125001d,PennController,35,0,items,NULL,PennController,36,_Trial_,End,1584983445432,33, Nachplapperer,NULL
+1584983565,d47c42e23305021be8d45500e125001d,PennController,21,0,items,NULL,PennController,22,_Trial_,Start,1584983445437,19, bleibt hängen,NULL
+1584983565,d47c42e23305021be8d45500e125001d,PennController,21,0,items,NULL,PennController,22,_Trial_,End,1584983473830,19, bleibt hängen,NULL
+1584983565,d47c42e23305021be8d45500e125001d,PennController,16,0,items,NULL,PennController,17,_Trial_,Start,1584983473835,14, unbesiegbar,NULL
+1584983565,d47c42e23305021be8d45500e125001d,PennController,16,0,items,NULL,PennController,17,_Trial_,End,1584983490563,14, unbesiegbar,NULL
+1584983565,d47c42e23305021be8d45500e125001d,PennController,32,0,items,NULL,PennController,33,_Trial_,Start,1584983490569,30, hinterlistig,NULL
+1584983565,d47c42e23305021be8d45500e125001d,PennController,32,0,items,NULL,PennController,33,_Trial_,End,1584983503880,30, hinterlistig,NULL
+1584983565,d47c42e23305021be8d45500e125001d,PennController,24,0,items,NULL,PennController,25,_Trial_,Start,1584983503884,22, schmächtig ,NULL
+1584983565,d47c42e23305021be8d45500e125001d,PennController,24,0,items,NULL,PennController,25,_Trial_,End,1584983520446,22, schmächtig ,NULL
+1584983565,d47c42e23305021be8d45500e125001d,PennController,13,0,items,NULL,PennController,14,_Trial_,Start,1584983520452,11, langsam,NULL
+1584983565,d47c42e23305021be8d45500e125001d,PennController,13,0,items,NULL,PennController,14,_Trial_,End,1584983530214,11, langsam,NULL
+1584983565,d47c42e23305021be8d45500e125001d,PennController,11,0,items,NULL,PennController,12,_Trial_,Start,1584983530219,9, aufbrausend,NULL
+1584983565,d47c42e23305021be8d45500e125001d,PennController,11,0,items,NULL,PennController,12,_Trial_,End,1584983542213,9, aufbrausend,NULL
+1584983565,d47c42e23305021be8d45500e125001d,PennController,6,0,items,NULL,PennController,7,_Trial_,Start,1584983542217,4, langsam,NULL
+1584983565,d47c42e23305021be8d45500e125001d,PennController,6,0,items,NULL,PennController,7,_Trial_,End,1584983564364,4, langsam,NULL
