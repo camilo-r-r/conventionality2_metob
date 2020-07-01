@@ -39,7 +39,7 @@ PennController( "info1" ,
 PennController("practice",
 
     
-        newText("sentence_p","Eint&ouml;nige Situation, die scheinbar ausweglos ist.")
+        newText("sentence_p","Eine eint&ouml;nige Situation, die scheinbar ausweglos ist.")
             .settings.css("font-size", "30px")
             .settings.css("padding-top", "30px")
             .settings.center()
@@ -58,7 +58,7 @@ PennController("practice",
                .print()
            ,
                newText("word_p", "Gef&auml;ngnis")
-               .settings.css("font-size", "25px")
+               .settings.css("font-size", "40px")
                .settings.css("padding-top", "10px")
                .settings.bold()
                .settings.center()
@@ -76,6 +76,7 @@ PennController("practice",
        newScale("rating_p", 100)
       .settings.slider()
       .settings.center()
+                     .settings.size(500)
       .settings.css("padding-top", "30px")
       .settings.before( newText("left", "noch nie") )
       .settings.after( newText("right", " sehr oft") )
@@ -100,9 +101,7 @@ PennController("practice",
            getText("sentence_p")
            .remove()
      ,
-           getText("context_p")
-           .remove()
-           ,
+
                getText("scale_title2_p")
                .remove()
          ,
@@ -147,15 +146,7 @@ PennController("instructions_3",
 
 PennController.Template( PennController.GetTable("conventionality2_metob.csv"),
                  variable => PennController("items",
-        newText("context",variable.context)
-            .settings.css("font-size", "30px")
-            .settings.center()
-            .print()
-
-   ,
-        newKey(" ")
-           .wait()
-    ,
+        
         newText("sentence",variable.meaning)
             .settings.css("font-size", "30px")
             .settings.css("padding-top", "30px")
@@ -174,24 +165,26 @@ PennController.Template( PennController.GetTable("conventionality2_metob.csv"),
                .print()
            ,
                newText("word", variable.word)
-               .settings.css("font-size", "25px")
+               .settings.css("font-size", "40px")
                .settings.css("padding-top", "10px")
                .settings.bold()
                .settings.center()
               //.settings.css("padding-left", "100pt")
                .print()
             ,
-               newText("scale_title2", "in einem ähnlichen Kontext schon mal geh&ouml;rt oder gelesen?")
+               newText("scale_title2", "in dieser bestimmten metaphorischen Bedeutung schon mal geh&ouml;rt oder gelesen?")
                .settings.css("font-size", "25px")
                .settings.css("padding-top", "10px")
                //.settings.bold()
                .settings.center()
+
               //.settings.css("padding-left", "100pt")
                .print()
            ,
        newScale("rating", 100)
       .settings.slider()
       .settings.center()
+                         .settings.size(500)
       .settings.css("padding-top", "30px")
       .settings.before( newText("left", "noch nie") )
       .settings.after( newText("right", " sehr oft") )
@@ -216,9 +209,6 @@ PennController.Template( PennController.GetTable("conventionality2_metob.csv"),
            getText("sentence")
            .remove()
      ,
-           getText("context")
-           .remove()
-      ,
           getText("scale_title2")
           .remove()
     ,

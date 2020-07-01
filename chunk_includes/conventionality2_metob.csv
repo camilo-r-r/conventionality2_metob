@@ -1,37 +1,41 @@
-item,meaning
-1,rücksichtsloser und wütender Mensch
-2,wütender und gefährlicher Mensch
-3,emotionsloser Mensch
-4,Menschen die langsam und träge sind
-5,"gütige, uneigennützige Person"
-6,"hinterlistige, gierige Person"
-7,sehr alte und erfahrene Person
-8,negative emotionale veränderung in einer Beziehung
-9,agressive und starke person
-10,agressive und gierige Person
-11,sehr langsame person
-12,"cholerische, unberechenbare person"
-13, charakterlich wandlungsfähiger Mensch
-14,"starker, mutiger Mensch"
-15,"Ort, mit chaotischen Zuständen"
-16,"jemand, der sich nicht zeigt und schwer aufzufinden ist"
-17,"hartes, unverdauliches Essen"
-18,"anmutige, elegante person"
-19,"eingängiger Song, der schnell an bekanntheit gewinnt"
-20,stark übergewichtiger mensch
-21,"zierliche, leicht verwundbare person"
-22, Schmächtiger und schwächlicher Mensch
-23, Dummer Mensch der Glück hat
-24,"große, breitgebaute Person"
-25,sehr alte Person mit veralteten Ansichten
-26,"abweisende, gefühllose Person"
-27,"chaotischer, undurchsichtiger Ort"
-28,lindernde aber temporäre Lösung
-29,"athletische, sehr schnelle Person"
-30,"hinterlistige, falsche Person"
-31,"großer, wütender mensch, der seine Meinung durrchsetzt"
-32,verwöhnte und launische Person
-33,redselige Person
-34,agressive und gefährliche Person
-35,habgierige Mensch
-36,"eine schwierig zu erobernde Person, die nur als Statussymbol gilt."
+item,meaning,word
+1,Ein rücksichtsloser und wütender Mensch.,Bulldozer
+2,Ein wütender und gefährlicher Mensch.,Drache
+3,Ein emotionsloser Mensch.,Roboter
+4,"Eine Gruppe von Menschen, die langsam und träge sind.",Altersheim
+5,Eine gütige und uneigennützige Person.,Engel
+6,Eine hinterlistige und gierige Person.,Hyäne
+7,Eine sehr alte und erfahrene Person.,Dinosaurier
+8,Eine negative emotionale Veränderung in einer Beziehung.,Riss
+9,Eine sehr große und aggressive Person.,Gorilla
+10,Eine aggressive und gierige Person.,Hai
+11,Ein sehr langsamer Mensch.,Schildkröte
+12,Eine cholerische und unberechenbare Person.,Vulkan
+13,Ein charakterlich wandlungsfähiger Mensch.,Chamäleon
+14,Ein starker und mutiger Mensch.,Löwe
+15,"Ein Ort, in dem chaotischen Zustände herrschen.",Zirkus
+16,"Jemand, der sich nicht zeigt und schwer aufzufinden ist.",Gespenst
+17,Hartes und unverdauliches Essen.,Stein
+18,Eine anmutige und elegante Person.,Schmetterling
+19,"Eingängige Musik, die schnell an Bekanntheit gewinnt.",Virus
+20,Ein stark übergewichtiger Mensch.,Walross
+21,Eine zierliche und leicht verwundbare Person.,Schneeflocke
+22,Ein schmächtiger und schwächlicher Mensch.,Zahnstocher
+23,"Ein dummer Mensch, der aber Glück hat.",Esel
+24,Ein großer und breitgebauter Mensch.,Schrank
+25,"Eine sehr alte Person, die veralteten Ansichten vertritt.",Fossil
+26,Eine abweisende und gefühllose Person.,Eisstatue
+27,Etwas chaotisches und undurchsichtiges.,Dschungel
+28,Eine lindernde aber nur temporäre Lösung.,Pflaster
+29,Eine athletische und sehr schnelle Person.,Leopard
+30,Ein hinterlistiger und falscher Mensch.,Schlange
+31,"Ein großer, wütender mensch, der seine Meinung durchsetzt.",Panzer
+32,Eine verwöhnte und launische Person.,Prinzessin
+33,Eine sehr redselige Person.,Papagei
+34,Ein aggressiver und gefährlicher Mensch. ,Piranha
+35,Ein habgieriger Mensch.,Geier
+36,"Eine schwierig zu erobernde Person, die nur als Statussymbol gilt.",Trophäe
+101,Eine große Katze.,Tabletten
+102,Eine bittere Niederlage. ,Kartoffel
+103,Ein verletzer Mensch.,Äpfel
+104,Ein guter Job.,gedolmetscht
